@@ -41,7 +41,7 @@ namespace CalculadoraPeso
 
             Console.Write("Informe sua altura: ");
             altura = Convert.ToDecimal(Console.ReadLine());
-
+             
             decimal imc = peso / (altura * altura);
 
             Console.WriteLine(
